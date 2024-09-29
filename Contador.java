@@ -13,6 +13,8 @@ public class Contador {
 
         } catch (ParametrosInvalidosException e) {
             System.out.println("O segundo parâmetro deve ser maior que o primeiro.");
+        } catch (Exception e){
+            System.out.println("Erro desconhecido");
         }
     }
     static void contar(int p1, int p2 ) throws ParametrosInvalidosException {
